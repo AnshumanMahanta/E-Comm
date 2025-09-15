@@ -59,14 +59,12 @@ Once the prerequisites are met, the application is ready for deployment.
 
 ---
 
-Here is the text for you to copy and paste.
 
-```
 ### Project Directory Structure
 
 The project follows a conventional Java web application layout with a clear separation of configuration, source code, libraries, and deployment artifacts.
 
-```
+```bash
 
 C:.
 │ build.xml \# Ant build configuration
