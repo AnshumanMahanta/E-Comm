@@ -59,25 +59,30 @@ Once the prerequisites are met, the application is ready for deployment.
 
 ---
 
-# Project Directory Structure
+Here is the text for you to copy and paste.
 
-The project follows a conventional Java web application layout with clear separation of configuration, source code, libraries, and deployment artifacts.
+```
+### Project Directory Structure
+
+The project follows a conventional Java web application layout with a clear separation of configuration, source code, libraries, and deployment artifacts.
+
+```
 
 C:.
-│ build.xml # Ant build configuration
+│ build.xml \# Ant build configuration
 │
-├───build # Auto-generated build output
+├───build \# Auto-generated build output
 │ ├───empty
 │ ├───generated-sources
 │ │ └───ap-source-output
-│ └───web # Compiled web resources
-│ │ admin_dashboard.jsp
+│ └───web \# Compiled web resources
+│ │ admin\_dashboard.jsp
 │ │ cart.jsp
 │ │ checkout.jsp
 │ │ edit-address.jsp
 │ │ index.html
 │ │ login.jsp
-│ │ order_confirmation.jsp
+│ │ order\_confirmation.jsp
 │ │ products.jsp
 │ │ register.jsp
 │ │ user-profile.jsp
@@ -89,9 +94,9 @@ C:.
 │ └───WEB-INF
 │ │ web.xml
 │ │
-│ ├───classes # Compiled Java classes
-│ │ │ .netbeans_automatic_build
-│ │ │ .netbeans_update_resources
+│ ├───classes \# Compiled Java classes
+│ │ │ .netbeans\_automatic\_build
+│ │ │ .netbeans\_update\_resources
 │ │ │
 │ │ ├───filter
 │ │ │ LoginFilter.class
@@ -109,10 +114,10 @@ C:.
 │ │ └───util
 │ │ DBConnection.class
 │ │
-│ └───lib # External libraries
+│ └───lib \# External libraries
 │ mysql-connector-j-8.0.31.jar
 │
-├───nbproject # NetBeans project metadata
+├───nbproject \# NetBeans project metadata
 │ │ ant-deploy.xml
 │ │ build-impl.xml
 │ │ genfiles.properties
@@ -123,7 +128,7 @@ C:.
 │ private.properties
 │ private.xml
 │
-├───src # Application source code
+├───src \# Application source code
 │ ├───conf
 │ │ MANIFEST.MF
 │ │
@@ -144,15 +149,15 @@ C:.
 │ └───util
 │ DBConnection.java
 │
-├───test # Unit and integration tests
-└───web # Web content (development view)
-│ admin_dashboard.jsp
+├───test \# Unit and integration tests
+└───web \# Web content (development view)
+│ admin\_dashboard.jsp
 │ cart.jsp
 │ checkout.jsp
 │ edit-address.jsp
 │ index.html
 │ login.jsp
-│ order_confirmation.jsp
+│ order\_confirmation.jsp
 │ products.jsp
 │ register.jsp
 │ user-profile.jsp
@@ -162,6 +167,8 @@ C:.
 │
 └───WEB-INF
 web.xml
+
+```
 
 ---
 
